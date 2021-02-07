@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+             Padding="10"
+             x:Class="DowralyApp.PhonDataPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" >
+            <StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+
+            </StackLayout>
+
+            <Label  x:Name="MyImei"/>
+            <Entry x:Name="TxtMyImei"/>
+            <Label  x:Name="MyName"/>
+            <Entry x:Name="TxtMyName"/>
+            <Label  x:Name="MyPhon"/>
+            <Entry x:Name="TxtMyPhon"/>
+            <Button x:Name="MyBtn" Clicked="MyBtn_Clicked" Padding="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -27,7 +27,7 @@ namespace DowralyApp
                   //PhNum = item.Object.PhNum
               }).ToList();
         }
-        public async Task AddPerson( string name, string Imeiy, string MyPhon)
+        public async Task AddPerson(string Imeiy, string name, string MyPhon)
         {
 
             await firebase

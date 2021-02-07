@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DowralyApp;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Dowraly_App
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PhonDataPage();
         }
 
         protected override void OnStart()
