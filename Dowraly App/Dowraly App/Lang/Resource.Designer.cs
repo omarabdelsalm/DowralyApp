@@ -61,6 +61,15 @@ namespace DowralyApp.Lang {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Searching.
+        /// </summary>
+        internal static string BtnSerch {
+            get {
+                return ResourceManager.GetString("BtnSerch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send.
         /// </summary>
         internal static string MyBtn {
@@ -93,6 +102,24 @@ namespace DowralyApp.Lang {
         internal static string MyPhon {
             get {
                 return ResourceManager.GetString("MyPhon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recording data.
+        /// </summary>
+        internal static string ReData {
+            get {
+                return ResourceManager.GetString("ReData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search the data.
+        /// </summary>
+        internal static string SeData {
+            get {
+                return ResourceManager.GetString("SeData", resourceCulture);
             }
         }
     }

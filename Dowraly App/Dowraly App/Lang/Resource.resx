@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BtnSerch" xml:space="preserve">
+    <value>Searching</value>
+  </data>
   <data name="MyBtn" xml:space="preserve">
     <value>Send</value>
   </data>
@@ -128,5 +131,11 @@
   </data>
   <data name="MyPhon" xml:space="preserve">
     <value>Your Phon Number</value>
+  </data>
+  <data name="ReData" xml:space="preserve">
+    <value>Recording data</value>
+  </data>
+  <data name="SeData" xml:space="preserve">
+    <value>Search the data</value>
   </data>
 </root>

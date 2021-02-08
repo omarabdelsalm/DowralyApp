@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DowralyApp;
+using MarcTron.Plugin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +15,22 @@ namespace Dowraly_App
         public MainPage()
         {
             InitializeComponent();
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
+
+            ReData.Text = DowralyApp.Lang.Resource.ReData;
+            SeData.Text = DowralyApp.Lang.Resource.SeData;
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            CrossMTAdmob.Current.ShowInterstitial();
+            await Navigation.PushAsync(new PhonDataPage());
+        }
+
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            CrossMTAdmob.Current.ShowInterstitial();
+            await Navigation.PushAsync(new SearchPage());
         }
     }
 }

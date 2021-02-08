@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             BackgroundColor="Azure"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+             x:Class="DowralyApp.SearchPage">
+    <ContentPage.Content >
+        <StackLayout VerticalOptions="Center" Padding="10">
+            <Entry x:Name="SrBar"/>
+            <Button Clicked="RetEntry" x:Name="BtnSerch" BorderColor="BlueViolet" FontSize="Medium" CornerRadius="50"/>
+            <StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+
+            </StackLayout>
+
+            <Label  x:Name="MyImei" Padding="3" FontSize="Medium"/>
+            <Label x:Name="TxtMyImei" TextColor="DarkGreen" Padding="3" FontSize="Medium"/>
+            <Label  x:Name="MyName" Padding="3" FontSize="Medium"/>
+            <Label x:Name="TxtMyName" TextColor="Blue" Padding="3" FontSize="Medium"/>
+            <Label  x:Name="MyPhon" Padding="3" FontSize="Medium"/>
+            <Label x:Name="TxtMyPhon" TextColor="Purple" Padding="3" FontSize="Medium"/>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              Padding="10"
+             BackgroundColor="Azure"
              x:Class="DowralyApp.PhonDataPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" >
@@ -10,13 +11,13 @@
 
             </StackLayout>
 
-            <Label  x:Name="MyImei"/>
-            <Entry x:Name="TxtMyImei"/>
-            <Label  x:Name="MyName"/>
-            <Entry x:Name="TxtMyName"/>
-            <Label  x:Name="MyPhon"/>
-            <Entry x:Name="TxtMyPhon"/>
-            <Button x:Name="MyBtn" Clicked="MyBtn_Clicked" Padding="10"/>
+            <Label  x:Name="MyImei" FontSize="Medium"/>
+            <Entry x:Name="TxtMyImei" FontSize="Medium"/>
+            <Label  x:Name="MyName" FontSize="Medium"/>
+            <Entry x:Name="TxtMyName" FontSize="Medium"/>
+            <Label  x:Name="MyPhon" FontSize="Medium"/>
+            <Entry x:Name="TxtMyPhon" FontSize="Medium"/>
+            <Button x:Name="MyBtn" Clicked="MyBtn_Clicked" Padding="10" FontSize="Medium"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

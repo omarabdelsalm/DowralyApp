@@ -11,7 +11,7 @@ namespace Dowraly_App
         {
             InitializeComponent();
 
-            MainPage = new PhonDataPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
