@@ -138,4 +138,7 @@
   <data name="SeData" xml:space="preserve">
     <value>البحث فى البيانات</value>
   </data>
+  <data name="WebSearch" xml:space="preserve">
+    <value>البحث بواسطة الويب</value>
+  </data>
 </root>

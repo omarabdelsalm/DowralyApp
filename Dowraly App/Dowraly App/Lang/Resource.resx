@@ -138,4 +138,7 @@
   <data name="SeData" xml:space="preserve">
     <value>Search the data</value>
   </data>
+  <data name="WebSearch" xml:space="preserve">
+    <value>Search by Web</value>
+  </data>
 </root>

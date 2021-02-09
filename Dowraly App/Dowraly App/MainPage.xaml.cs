@@ -12,6 +12,7 @@ namespace Dowraly_App
 {
     public partial class MainPage : ContentPage
     {
+
         public MainPage()
         {
             InitializeComponent();
@@ -19,6 +20,7 @@ namespace Dowraly_App
 
             ReData.Text = DowralyApp.Lang.Resource.ReData;
             SeData.Text = DowralyApp.Lang.Resource.SeData;
+            WebSearch.Text = DowralyApp.Lang.Resource.WebSearch;
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
@@ -31,6 +33,11 @@ namespace Dowraly_App
         {
             CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new SearchPage());
+        }
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            CrossMTAdmob.Current.ShowInterstitial();
+            await Navigation.PushAsync(new WebSearchPage());
         }
     }
 }

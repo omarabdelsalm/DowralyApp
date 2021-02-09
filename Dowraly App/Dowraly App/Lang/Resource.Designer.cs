@@ -122,5 +122,14 @@ namespace DowralyApp.Lang {
                 return ResourceManager.GetString("SeData", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search by Web.
+        /// </summary>
+        internal static string WebSearch {
+            get {
+                return ResourceManager.GetString("WebSearch", resourceCulture);
+            }
+        }
     }
 }
