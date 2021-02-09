@@ -10,15 +10,14 @@ using Xamarin.Forms.Xaml;
 namespace DowralyApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WebSearchPage : ContentPage
+    public partial class ImeiInfoPage : ContentPage
     {
-
-        public WebSearchPage()
+        public ImeiInfoPage()
         {
             InitializeComponent();
-            WebLab.Text = Lang.Resource.WebLab;
+            ImwiLab.Text = Lang.Resource.ImwiLab;
             this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
-            Browser.Source = "https://www.google.com/android/find";
+            Browser.Source = "https://www.imei.info/";
         }
     }
 }

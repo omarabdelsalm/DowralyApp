@@ -120,6 +120,12 @@
   <data name="BtnSerch" xml:space="preserve">
     <value>Searching</value>
   </data>
+  <data name="ImeSearch" xml:space="preserve">
+    <value>Imei web search</value>
+  </data>
+  <data name="ImwiLab" xml:space="preserve">
+    <value>Search the site by serial number</value>
+  </data>
   <data name="MyBtn" xml:space="preserve">
     <value>Send</value>
   </data>
@@ -137,6 +143,9 @@
   </data>
   <data name="SeData" xml:space="preserve">
     <value>Search the data</value>
+  </data>
+  <data name="WebLab" xml:space="preserve">
+    <value>  register the Google account on the lost phone  </value>
   </data>
   <data name="WebSearch" xml:space="preserve">
     <value>Search by Web</value>

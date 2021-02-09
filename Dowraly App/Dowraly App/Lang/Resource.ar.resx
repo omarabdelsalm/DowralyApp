@@ -120,6 +120,12 @@
   <data name="BtnSerch" xml:space="preserve">
     <value>ابحث</value>
   </data>
+  <data name="ImeSearch" xml:space="preserve">
+    <value>Imei بحث ويب</value>
+  </data>
+  <data name="ImwiLab" xml:space="preserve">
+    <value>البحث بالموقع بواسطة الرقم التسلسلى</value>
+  </data>
   <data name="MyBtn" xml:space="preserve">
     <value>ارسال</value>
   </data>
@@ -137,6 +143,9 @@
   </data>
   <data name="SeData" xml:space="preserve">
     <value>البحث فى البيانات</value>
+  </data>
+  <data name="WebLab" xml:space="preserve">
+    <value>الرجاء تسجيل بحساب جوجل الذى يوجد على الهاتف المفقود</value>
   </data>
   <data name="WebSearch" xml:space="preserve">
     <value>البحث بواسطة الويب</value>

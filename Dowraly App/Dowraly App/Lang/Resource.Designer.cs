@@ -70,6 +70,24 @@ namespace DowralyApp.Lang {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Imei web search.
+        /// </summary>
+        internal static string ImeSearch {
+            get {
+                return ResourceManager.GetString("ImeSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search the site by serial number.
+        /// </summary>
+        internal static string ImwiLab {
+            get {
+                return ResourceManager.GetString("ImwiLab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send.
         /// </summary>
         internal static string MyBtn {
@@ -120,6 +138,15 @@ namespace DowralyApp.Lang {
         internal static string SeData {
             get {
                 return ResourceManager.GetString("SeData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to   register the Google account on the lost phone  .
+        /// </summary>
+        internal static string WebLab {
+            get {
+                return ResourceManager.GetString("WebLab", resourceCulture);
             }
         }
         

@@ -13,6 +13,7 @@
         <Button x:Name="ReData" Clicked="Button_Clicked"/>
         <Button x:Name="SeData" Clicked="Button_Clicked_1"/>
         <Button x:Name="WebSearch" Clicked="Button_Clicked_2"/>
+        <Button x:Name="ImeSearch" Clicked="ImeSearch_Clicked"/>
     </StackLayout>
 
 </ContentPage>

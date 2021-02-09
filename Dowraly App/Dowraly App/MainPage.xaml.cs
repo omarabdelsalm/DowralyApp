@@ -21,6 +21,7 @@ namespace Dowraly_App
             ReData.Text = DowralyApp.Lang.Resource.ReData;
             SeData.Text = DowralyApp.Lang.Resource.SeData;
             WebSearch.Text = DowralyApp.Lang.Resource.WebSearch;
+            ImeSearch.Text = DowralyApp.Lang.Resource.ImeSearch;
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
@@ -38,6 +39,12 @@ namespace Dowraly_App
         {
             CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new WebSearchPage());
+        }
+
+        private async void ImeSearch_Clicked(object sender, EventArgs e)
+        {
+            CrossMTAdmob.Current.ShowInterstitial();
+            await Navigation.PushAsync(new ImeiInfoPage());
         }
     }
 }
