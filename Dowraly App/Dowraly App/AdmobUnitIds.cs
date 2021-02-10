@@ -19,7 +19,7 @@ namespace DowralyApp
                 if (Device.RuntimePlatform == Device.Android)
                 {
 
-                    _bannerId = "ca-app-pub-9816794170840872/8649063901";
+                    _bannerId = "ca-app-pub-9816794170840872/8494944213";//"ca-app-pub-9816794170840872/8649063901";
                 ads: adSize = "BANNER";
                 }
 

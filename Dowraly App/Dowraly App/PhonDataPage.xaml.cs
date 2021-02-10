@@ -54,13 +54,23 @@ namespace DowralyApp
         }
         private async void MyBtn_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.AddPerson(TxtMyImei.Text, TxtMyName.Text, TxtMyPhon.Text);
-            TxtMyImei.Text = string.Empty;
-            TxtMyName.Text = string.Empty;
-            TxtMyPhon.Text = string.Empty;
-         
-            await DisplayAlert("Success", "Person Added Successfully", "OK");
-            var allPersons = await firebaseHelper.GetAllPersons();
+            if (TxtMyImei.Text != null && TxtMyName.Text != null && TxtMyPhon.Text != null)
+            {
+                await firebaseHelper.AddPerson(TxtMyImei.Text, TxtMyName.Text, TxtMyPhon.Text);
+                TxtMyImei.Text = string.Empty;
+                TxtMyName.Text = string.Empty;
+                TxtMyPhon.Text = string.Empty;
+
+                await DisplayAlert("Success", "تم اضافة البيانات", "OK");
+            }
+            else
+            {
+                await DisplayAlert("Success", "تاكد من ملء الحقول", "OK");
+
+            }
+            
+
+            // var allPersons = await firebaseHelper.GetAllPersons();
             //lstPersons.ItemsSource = allPersons;
         }
     }

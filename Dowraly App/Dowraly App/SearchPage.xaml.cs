@@ -19,6 +19,7 @@ namespace DowralyApp
         public SearchPage()
         {
             InitializeComponent();
+            this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
             this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
             BtnSerch.Text =Lang.Resource.BtnSerch;
             MyImei.Text = Lang.Resource.MyImei;

@@ -5,8 +5,9 @@
              x:Class="DowralyApp.SearchPage">
     <ContentPage.Content >
         <StackLayout VerticalOptions="Center" Padding="10">
+            <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
             <Entry x:Name="SrBar"/>
-            <Button Clicked="RetEntry" x:Name="BtnSerch" BorderColor="BlueViolet" FontSize="Medium" CornerRadius="50"/>
+            <Button Clicked="RetEntry" x:Name="BtnSerch"  FontSize="Medium" CornerRadius="50"/>
             <StackLayout>
                 <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
 
