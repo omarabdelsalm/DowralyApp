@@ -18,6 +18,7 @@
             <Label  x:Name="MyPhon" FontSize="Medium"/>
             <Entry x:Name="TxtMyPhon" FontSize="Medium"/>
             <Button x:Name="MyBtn" Clicked="MyBtn_Clicked" Padding="10" FontSize="Medium"/>
+            <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -21,6 +21,7 @@ namespace DowralyApp
             InitializeComponent();
             this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
             this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
+            this.bannerAd_view3.AdsId = AdmobUnitIds.BannerId;
             BtnSerch.Text =Lang.Resource.BtnSerch;
             MyImei.Text = Lang.Resource.MyImei;
             MyName.Text = Lang.Resource.MyName;

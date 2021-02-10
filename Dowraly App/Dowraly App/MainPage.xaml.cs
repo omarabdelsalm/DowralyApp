@@ -77,7 +77,7 @@ namespace Dowraly_App
                     var current = Connectivity.NetworkAccess;
                     if (current == NetworkAccess.Internet)
                     {
-                        CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.RewardedId);
+              CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
             CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new ImeiInfoPage());
             }

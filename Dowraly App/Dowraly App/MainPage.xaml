@@ -10,10 +10,10 @@
 
         </StackLayout>
         <Image Source="drawable/logo_size.jpg"/>
-        <Button x:Name="ReData" Clicked="Button_Clicked"/>
-        <Button x:Name="SeData" Clicked="Button_Clicked_1"/>
-        <Button x:Name="WebSearch" Clicked="Button_Clicked_2"/>
-        <Button x:Name="ImeSearch" Clicked="ImeSearch_Clicked"/>
+        <Button x:Name="ReData" Clicked="Button_Clicked" CornerRadius="50" BackgroundColor="LightSlateGray"/>
+        <Button x:Name="SeData" Clicked="Button_Clicked_1" CornerRadius="50"  BackgroundColor="Fuchsia"/>
+        <Button x:Name="WebSearch" Clicked="Button_Clicked_2" CornerRadius="50" BackgroundColor="Beige"/>
+        <Button x:Name="ImeSearch" Clicked="ImeSearch_Clicked" CornerRadius="50" BackgroundColor="DarkCyan"/>
         <StackLayout>
             <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
 

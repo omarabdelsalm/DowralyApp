@@ -19,7 +19,7 @@
             <Label x:Name="TxtMyName" TextColor="Blue" Padding="3" FontSize="Medium"/>
             <Label  x:Name="MyPhon" Padding="3" FontSize="Medium"/>
             <Label x:Name="TxtMyPhon" TextColor="Purple" Padding="3" FontSize="Medium"/>
-           
+            <MTAdmob:MTAdView x:Name="bannerAd_view3" HeightRequest="50" VerticalOptions="EndAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
