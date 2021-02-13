@@ -12,7 +12,7 @@ using System.Text;
 
 namespace Dowraly_App.Droid
 {
-    [Activity(Label = "دورللي", Icon = "@drawable/ic_launcher", Theme = "@style/SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "دورللي", Icon = "@drawable/dowarly", Theme = "@style/SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
 
     public class SplashScrean : Activity
     {
