@@ -87,5 +87,12 @@ namespace Dowraly_App
                 return;
             }
         }
+
+        private async void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
+            await Navigation.PushAsync(new HelpPage());
+        }
     }
 }

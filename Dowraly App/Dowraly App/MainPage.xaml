@@ -19,5 +19,9 @@
 
         </StackLayout>
     </StackLayout>
+    <ContentPage.ToolbarItems>
+        
+        <ToolbarItem Text="مساعدة" Clicked="ToolbarItem_Clicked" />
 
+    </ContentPage.ToolbarItems>
 </ContentPage>

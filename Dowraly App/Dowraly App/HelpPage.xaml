@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DowralyApp.HelpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="التطبيق يفيد المستخدم فى العثور على الهواتف المفقود وايقاف استخدامها من قبل الاخرين  /nوالقدرة على التحكم فى.الهاتف عن بعد " />
+            <Label Text="يعتمد التطبيق على ثلاثة محاور" />
+            <Label Text="الاول تسجل قاعده الموبايلات مبكرا فى حاله فقد الفون ف اى وقت تقدر توصل بسرعه للموبايل" />
+            <Label Text="
+الثانى  اذا كان مغلق يستطيع فني السنترال الوصول لبياناتك عن طريق البرنامج والتواصل معك لاستلامه" />
+            <Label Text="
+ ‏الثالث وجود موقعين للبحث ف البرنامج بحث بعنوان الجيميل" />
+            <Label Text="
+  Gmail وبحث عن طريق الرقم التسلسلي IMEI الموجود على علبه الموبايل او اسفل البطاريه" />
+            <Label Text="لمعرفة IMEI Call *#06# "/>
+            <Label Text="
+ومن مميزات الامان معلوماتك الشخصيه لا يتم الاطلاع عليها من اى جهة سواك" />
+           
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
